@@ -30,7 +30,7 @@ export const projects: Project[] = [
     description:
       'A full-stack Hybrid RAG platform combining FAISS + BM25 retrieval, RRF fusion, and cross-encoder reranking, orchestrated through an 8-node LangGraph agent with live web-search fallback and full-trace observability.',
     stack: ['React', 'TypeScript', 'FastAPI', 'MongoDB', 'FAISS', 'BM25', 'LangGraph', 'LangSmith', 'Redis', 'OCR'],
-    github: 'https://github.com/namanp09',
+    github: 'https://github.com/namanp09/enterprise-knowledgehub-ai',
     featured: true,
     accent: 'purple',
     overview:
@@ -92,7 +92,7 @@ export const projects: Project[] = [
     description:
       'A multi-modal GAN-based system for imperceptibly embedding secret data within image, audio, and video files, deployed as a containerized FastAPI service with AES-256-GCM encryption and deep-learning-based payload compression.',
     stack: ['PyTorch', 'FastAPI', 'Docker', 'AES-256-GCM', 'GANs', 'OpenCV'],
-    github: 'https://github.com/namanp09',
+    github: 'https://github.com/namanp09/gan-steganography',
     featured: true,
     accent: 'cyan',
     overview:
@@ -148,7 +148,7 @@ export const projects: Project[] = [
     description:
       'A responsive web interface for a Gemini AI-powered resume-JD semantic matching engine, presenting NLP-based candidate scoring and ranking across 50+ job applications through a clean, filterable UI.',
     stack: ['React', 'Gemini API', 'Node.js', 'MongoDB', 'Vercel', 'Sentry'],
-    github: 'https://github.com/namanp09',
+    github: 'https://github.com/namanp09/ai-job-portal',
     featured: true,
     accent: 'purple',
     overview:
