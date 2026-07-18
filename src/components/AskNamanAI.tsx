@@ -26,7 +26,11 @@ export default function AskNamanAI() {
   const endRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    endRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+    // Avoid scrolling on initial mount — only auto-scroll when there are
+    // replies after the intro or when the assistant is thinking.
+    if (messages.length > 1 || thinking) {
+      endRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+    }
   }, [messages, thinking])
 
   const ask = (question: string) => {
